@@ -38,6 +38,15 @@ function App() {
     <div className="App">
       <main>
         <Title content="Pokemons" />
+        {all_pokemon.map((pokemon) => (
+          <Pokemon
+            name={pokemon.name}
+            weight={pokemon.weight}
+            awesome={pokemon.awesome}
+            terrifying={pokemon.terrifying}
+            abilities={pokemon.abilities}
+          />
+        ))}
       </main>
     </div>
   );
