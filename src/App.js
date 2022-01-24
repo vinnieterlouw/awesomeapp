@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <p> Let's learn how to code react!</p>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -15,9 +15,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          <h1>Hello World!</h1>
+          <p>React is the front end</p>
         </a>
-      </header>
+      
     </div>
   );
 }
