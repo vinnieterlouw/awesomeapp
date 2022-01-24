@@ -38,8 +38,9 @@ function App() {
     <div className="App">
       <main>
         <Title content="Pokemons" />
-        {all_pokemon.map((pokemon) => (
+        {all_pokemon.map((pokemon, index) => (
           <Pokemon
+            key={index}
             name={pokemon.name}
             weight={pokemon.weight}
             awesome={pokemon.awesome}
